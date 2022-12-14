@@ -3,7 +3,7 @@ p1, p2, count = 0, 0, 0
 lines = []
 
 for line in open("input.txt"):
-    l = line.splitlines()[0]
+    l = line.rstrip()
     lines.append(l)
     count += 1
     
